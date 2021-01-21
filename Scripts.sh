@@ -63,14 +63,17 @@ echo "Hello $NAME, nice to meet you!"
 
 #9. Case Statements (Switch Statements)
 #will take user input, take a look at what they input then respond to it
-read -p "Are you 21 or over? Y/N" Answer
+read -p "Are you 21 or over? Y/N" ANSWER
 case "$ANSWER" in
  [yY] | [yY][eE][sS])
   echo "you can have a beer :)"
   ;;
  [nN] | [nN][oO])
+  echo "Sorry, you can not have a beer"
   ;;
  *)
    echo "Please enter y/yes or n/no"
   ;;
 esac
+
+
