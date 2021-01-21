@@ -61,4 +61,16 @@ echo "Hello $NAME, nice to meet you!"
 #  echo " $FILE is not a directory"
 #fi
 
-
+#9. Case Statements (Switch Statements)
+#will take user input, take a look at what they input then respond to it
+read -p "Are you 21 or over? Y/N" Answer
+case "$ANSWER" in
+ [yY] | [yY][eE][sS])
+  echo "you can have a beer :)"
+  ;;
+ [nN] | [nN][oO])
+  ;;
+ *)
+   echo "Please enter y/yes or n/no"
+  ;;
+esac
