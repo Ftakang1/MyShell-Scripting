@@ -2,13 +2,12 @@
 #1. echo hello world!
 
 #2. variables
-#NAME="Frida"
-#echo "my name is ${NAME}"
+NAME="Frida"
+echo "my name is ${NAME}"
 
 #3.User input =when the user has to type something in
-#read -p "Enter your name:" NAME
-
-#echo "Hello $NAME, nice to meet you!"
+read -p "Enter your name:" NAME
+echo "Hello $NAME, nice to meet you!"
 
 #[3~or use the below
 #read -p "Enter your name:" NAME
